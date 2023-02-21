@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Anurag Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+              img(src="/static/4a.jpeg")
+            li #[a(href="/") Home]  
+            li #[a(href="/") About]
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class info] 
+            li #[a(href="/") Contact Us]
+        h5 ADA
+    section#introsection 
+        div  welcone to Anurag's Dance Academy
+        div.small EAT SLEEP DANCE REPEAT
+
+    section#missionsection
+        H1 Our Mission
+        div.card   
+          h3 Dance Perfection
+          div.card-box 
+            div.card-t 
+              img(src="/static/2a.jpeg") 
+            div.card-content 
+              p This academy provide perfection in your dance.
+
+        div.card   
+          h3 Dance the way you like
+          div.card-box 
+            div.card-t 
+              img(src="/static/1a.png")
+            div.card-content 
+              p You can choose any dance form.Many type of Dance form are available. 
+
+        div.card   
+          h3 Expert Teaching
+          div.card-box 
+            div.card-t 
+              img(src="/static/4a.jpeg")
+            div.card-content 
+              p Expert teacher are available to guide and teach you.
+    section#sponsersection
+        | Our Sponser
+        div.sponser 
+          img(src="/static/apple.png")
+          img(src="/static/microsoft.png")
+          img(src="/static/nike.png")
+    
+    footer#footer 
+        | Copyright © 2023 Anuragdanceacademy.com | All right reserved  
+    script 
+      inclue index.js

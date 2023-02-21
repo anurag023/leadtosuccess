@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display:flex;
+    color: aliceblue;
+    height: 40px;
+}
+#navbar{
+    background-color: black;
+    padding: 7px 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar h5{
+    color: white;
+    margin-left: 31%;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#navbar li{
+    list-style: none;
+    padding: 10px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: aliceblue;
+}
+#navbar li a:hover{
+    color:red;
+}
+#introsection{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    height:500px;
+    background-color:red;
+    background: center/cover no-repeat url("/static/bg.jpg");
+  
+    
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 30%;
+    margin: 10px 20px;
+    height: 150px;
+
+}
+.card h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 8px;
+}
+.card-box{
+    display: flex;
+    justify-content:space-between;
+}
+.card-t{
+    height:90px;
+    
+}
+.card img{
+    height:80px;
+}
+.card-content{
+    margin-left: 100px;
+    padding-top: 10px;
+    font-size: large;
+}
+#introsection div.small{
+    font-size: 1rem;
+}
+#missionsection{
+    background-color: white;
+    height: 250px;
+}
+#missionsection h1{
+    font-family:cursive;
+    text-align: center;
+    padding: 12px;
+    color: rgb(170, 88, 247);
+
+}
+#sponsersection{
+
+    height: 300px;
+    background-color: rgb(209, 111, 127);
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    color: rgb(38, 38, 75);
+}
+.sponser{
+    padding:20px 30px;
+}
+.sponser img{
+    height:200px;
+    padding:30px;
+
+}
+#footer{
+    height: 50px;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding :10px
+
+}
