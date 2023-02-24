@@ -13,6 +13,14 @@
     padding: 7px 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#name{
+    display: flex;
+    justify-content: center;
+}
+#name1{
+    width: 569px;
+    color: aliceblue;
+}
 #navbar h5{
     color: white;
     margin-left: 31%;
@@ -93,6 +101,15 @@
     padding: 12px;
     color: rgb(170, 88, 247);
 
+}
+@media(max-width:1200px){
+    #res{
+        display: flex;
+        justify-content: center;
+    }
+    .st{
+        font-size: 0.9rem;
+    }
 }
 #sponsersection{
 
